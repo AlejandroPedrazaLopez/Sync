@@ -26,6 +26,8 @@ titleColor_SimpleStat = props['titleColor'] ? props['titleColor'] : titleColor_S
 <Layer id="simplestat-1"  backgroundColor={backgroundColor_SimpleStat}
 shadowColor={shadowColor_SimpleStat}
 backgroundColor={backgroundColor_SimpleStat}
+shadowColor={shadowColor_SimpleStat}
+backgroundColor={backgroundColor_SimpleStat}
 shadowColor={shadowColor_SimpleStat} 
   
 radiusAbsolute={'0.8825638727028238vh'} shadowOffsetX={'0undefined'}shadowOffsetY={'1undefined'}shadowBlur={'4'}
@@ -37,6 +39,7 @@ padding-right={'20vw'}
  valuewidth={'fit-content'}
  >
 <Text id="text-1-copy" content="Total subscribers"  backgroundColor={bodyColor_SimpleStat}
+backgroundColor={bodyColor_SimpleStat}
 backgroundColor={bodyColor_SimpleStat} 
   
  fontSize={'16pt'}
@@ -45,6 +48,7 @@ backgroundColor={bodyColor_SimpleStat}
  valuewidth={'fit-content'}
  />
 <Text id="text-2-copy" content="71,893"  backgroundColor={titleColor_SimpleStat}
+backgroundColor={titleColor_SimpleStat}
 backgroundColor={titleColor_SimpleStat} 
   
  fontSize={'24pt'}

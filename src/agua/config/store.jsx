@@ -5,6 +5,7 @@ import Card from './themes/card';
 import GreetingsTitle from './themes/greetingsTitle';
 import SimpleStat from './themes/simpleStat';
 import SignIn from './themes/signIn';
+import IconBadge from './themes/iconBadge';
 
             
 const reducers = combineReducers({
@@ -14,6 +15,7 @@ Card,
 GreetingsTitle,
 SimpleStat,
 SignIn,
+IconBadge,
 
 });
 

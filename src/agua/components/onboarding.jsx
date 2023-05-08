@@ -25,6 +25,7 @@ primaryColor_Onboarding = props['primaryColor'] ? props['primaryColor'] : primar
     return(
         
 <Layer id="onboarding-1"  backgroundColor={backgroundColor_Onboarding}
+backgroundColor={backgroundColor_Onboarding}
 backgroundColor={backgroundColor_Onboarding} 
  
 secondaryAxisAlign={'alignItems=center'} 
@@ -40,6 +41,7 @@ padding-right={'6vw'}
  valuewidth={'width=100%'}
  />
 <Text id="text-1-copy" content="Discover the World with us"  backgroundColor={titleColor_Onboarding}
+backgroundColor={titleColor_Onboarding}
 backgroundColor={titleColor_Onboarding} 
   textAlign={'textAlign=center'}
  fontSize={'24pt'}
@@ -48,6 +50,7 @@ backgroundColor={titleColor_Onboarding}
  valuewidth={'80%'}
  />
 <Text id="text-2-copy" content="Experience the wonders of the planet booking with our user-friendly app"  backgroundColor={bodyColor_Onboarding}
+backgroundColor={bodyColor_Onboarding}
 backgroundColor={bodyColor_Onboarding} 
   textAlign={'textAlign=center'}
  fontSize={'14pt'}
@@ -57,6 +60,7 @@ backgroundColor={bodyColor_Onboarding}
  valuewidth={'80vw'}
  />
 <Layer id="layer-2-copy"  backgroundColor={primaryColor_Onboarding}
+backgroundColor={primaryColor_Onboarding}
 backgroundColor={primaryColor_Onboarding} 
  
 primaryAxisAlign={'justifyContent=center'}

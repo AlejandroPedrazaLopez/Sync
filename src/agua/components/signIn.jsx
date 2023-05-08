@@ -24,7 +24,8 @@ primaryColor_SignIn = props['primaryColor'] ? props['primaryColor'] : primaryCol
 
     return(
         
-<Layer id="signin-1"  backgroundColor={backgroundColor_SignIn} 
+<Layer id="signin-1"  backgroundColor={backgroundColor_SignIn}
+backgroundColor={backgroundColor_SignIn} 
  
 secondaryAxisAlign={'alignItems=center'} 
    padding-top={'5vw'} 
@@ -50,14 +51,16 @@ padding-right={'5vw'}
   valueheight={'fit-content'}
  valuewidth={'width=100%'}
  >
-<Text id="text-1-copy" content="Email"  backgroundColor={titleColor_SignIn} 
+<Text id="text-1-copy" content="Email"  backgroundColor={titleColor_SignIn}
+backgroundColor={titleColor_SignIn} 
   
  fontSize={'14pt'}
  
     valueheight={'fit-content'}
  valuewidth={'fit-content'}
  />
-<Layer id="layer-5-copy"  shadowColor={shadowColor_SignIn} 
+<Layer id="layer-5-copy"  shadowColor={shadowColor_SignIn}
+shadowColor={shadowColor_SignIn} 
   
 radiusAbsolute={'1.0785522187359955vh'} shadowOffsetX={'0undefined'}shadowOffsetY={'0undefined'}shadowBlur={'2'}
   padding-left={'3vw'} 
@@ -66,7 +69,8 @@ radiusAbsolute={'1.0785522187359955vh'} shadowOffsetX={'0undefined'}shadowOffset
   valueheight={'fit-content'}
  valuewidth={'width=100%'}
  >
-<Text id="text-4-copy" content="Enter your email"  backgroundColor={shadowColor_SignIn} 
+<Text id="text-4-copy" content="Enter your email"  backgroundColor={shadowColor_SignIn}
+backgroundColor={shadowColor_SignIn} 
   
  fontSize={'14pt'}
  
@@ -87,14 +91,16 @@ padding-right={'5vw'}
   valueheight={'fit-content'}
  valuewidth={'width=100%'}
  >
-<Text id="text-2-copy" content="Password"  backgroundColor={titleColor_SignIn} 
+<Text id="text-2-copy" content="Password"  backgroundColor={titleColor_SignIn}
+backgroundColor={titleColor_SignIn} 
   
  fontSize={'14pt'}
  
     valueheight={'fit-content'}
  valuewidth={'fit-content'}
  />
-<Layer id="layer-6-copy"  shadowColor={shadowColor_SignIn} 
+<Layer id="layer-6-copy"  shadowColor={shadowColor_SignIn}
+shadowColor={shadowColor_SignIn} 
   
 radiusAbsolute={'0.3765127745405663vh'} shadowOffsetX={'0undefined'}shadowOffsetY={'0undefined'}shadowBlur={'2'}
   padding-left={'3vw'} 
@@ -103,7 +109,8 @@ radiusAbsolute={'0.3765127745405663vh'} shadowOffsetX={'0undefined'}shadowOffset
   valueheight={'fit-content'}
  valuewidth={'width=100%'}
  >
-<Text id="text-5-copy" content="Enter your password"  backgroundColor={shadowColor_SignIn} 
+<Text id="text-5-copy" content="Enter your password"  backgroundColor={shadowColor_SignIn}
+backgroundColor={shadowColor_SignIn} 
   
  fontSize={'14pt'}
  
@@ -114,7 +121,8 @@ margin-bottom={'3vw'}
  />
 </Layer>
 </Layer>
-<Layer id="layer-4-copy"  backgroundColor={primaryColor_SignIn} 
+<Layer id="layer-4-copy"  backgroundColor={primaryColor_SignIn}
+backgroundColor={primaryColor_SignIn} 
  
 secondaryAxisAlign={'alignItems=center'} 
 radiusAbsolute={'2.2946175637393766vw'}    margin-top={'5vw'} 

@@ -29,6 +29,8 @@ primaryColor_Card = props['primaryColor'] ? props['primaryColor'] : primaryColor
 <Layer id="card-1"  backgroundColor={backgroundColor_Card}
 shadowColor={shadowColor_Card}
 backgroundColor={backgroundColor_Card}
+shadowColor={shadowColor_Card}
+backgroundColor={backgroundColor_Card}
 shadowColor={shadowColor_Card} 
   
 radiusAbsolute={'5.898016997167143vw'} shadowOffsetX={'0undefined'}shadowOffsetY={'0undefined'}shadowBlur={'10'}
@@ -40,6 +42,7 @@ margin-right={'5vw'}
  valuewidth={'width=100%'}
  >
 <Layer id="layer-2-copy"  backgroundColor={shadowColor_Card}
+backgroundColor={shadowColor_Card}
 backgroundColor={shadowColor_Card} 
  
 primaryAxisAlign={'justifyContent=center'}
@@ -57,6 +60,7 @@ margin-right={'5vw'}
  />
 </Layer>
 <Text id="text-1-copy" content="Headline"  backgroundColor={titleColor_Card}
+backgroundColor={titleColor_Card}
 backgroundColor={titleColor_Card} 
   
  fontSize={'18pt'}
@@ -67,6 +71,7 @@ margin-right={'5vw'}
  valuewidth={'fit-content'}
  />
 <Text id="text-2-copy" content="Here is a card description. This is better between 1 and 3 lines tall."  backgroundColor={bodyColor_Card}
+backgroundColor={bodyColor_Card}
 backgroundColor={bodyColor_Card} 
   
  fontSize={'14pt'}
@@ -89,6 +94,7 @@ margin-right={'5vw'}
  valuewidth={'width=100%'}
  >
 <Layer id="layer-4-copy"  backgroundColor={primaryColor_Card}
+backgroundColor={primaryColor_Card}
 backgroundColor={primaryColor_Card} 
  
 primaryAxisAlign={'justifyContent=center'}

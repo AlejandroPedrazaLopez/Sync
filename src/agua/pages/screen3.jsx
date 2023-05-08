@@ -1,17 +1,19 @@
 import React from 'react';
 import SignIn from '../components/signIn.jsx';
 import Debitcard from '../components/debitcard.jsx';
+import IconBadge from '../components/iconBadge.jsx';
 
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => {
     return {
         backgroundColor_SignIn: state.Default.backgroundColor ? state.Default.backgroundColor : state.SignIn.backgroundColor, 
+primaryColor_IconBadge: state.Default.primaryColor ? state.Default.primaryColor : state.IconBadge.primaryColor, 
 
     }
 }
 
-function Screen3({backgroundColor_SignIn}) {
+function Screen3({backgroundColor_SignIn, primaryColor_IconBadge}) {
     return(
         <div className="Screen3"    
         style={{display:'flex', 
@@ -24,7 +26,7 @@ alignItems:'flex-start', overflowY:'scroll',
         >
             
 <SignIn />
-<Debitcard />
+<IconBadge />
         </div>
     );
 }
