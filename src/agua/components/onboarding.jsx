@@ -24,7 +24,8 @@ primaryColor_Onboarding = props['primaryColor'] ? props['primaryColor'] : primar
 
     return(
         
-<Layer id="onboarding-1"  backgroundColor={backgroundColor_Onboarding} 
+<Layer id="onboarding-1"  backgroundColor={backgroundColor_Onboarding}
+backgroundColor={backgroundColor_Onboarding} 
  
 secondaryAxisAlign={'alignItems=center'} 
    padding-top={'6vw'} 
@@ -38,14 +39,16 @@ padding-right={'6vw'}
   valueHeight={'55vh'}
  valuewidth={'width=100%'}
  />
-<Text id="text-1-copy" content="Discover the World with us"  backgroundColor={titleColor_Onboarding} 
+<Text id="text-1-copy" content="Discover the World with us"  backgroundColor={titleColor_Onboarding}
+backgroundColor={titleColor_Onboarding} 
   textAlign={'textAlign=center'}
  fontSize={'24pt'}
  textWeight={'fontWeight=bold'}
     valueheight={'fit-content'}
  valuewidth={'80%'}
  />
-<Text id="text-2-copy" content="Experience the wonders of the planet booking with our user-friendly app"  backgroundColor={bodyColor_Onboarding} 
+<Text id="text-2-copy" content="Experience the wonders of the planet booking with our user-friendly app"  backgroundColor={bodyColor_Onboarding}
+backgroundColor={bodyColor_Onboarding} 
   textAlign={'textAlign=center'}
  fontSize={'14pt'}
  
@@ -53,7 +56,8 @@ padding-right={'6vw'}
    valueheight={'fit-content'}
  valuewidth={'80vw'}
  />
-<Layer id="layer-2-copy"  backgroundColor={primaryColor_Onboarding} 
+<Layer id="layer-2-copy"  backgroundColor={primaryColor_Onboarding}
+backgroundColor={primaryColor_Onboarding} 
  
 primaryAxisAlign={'justifyContent=center'}
 secondaryAxisAlign={'alignItems=center'} 

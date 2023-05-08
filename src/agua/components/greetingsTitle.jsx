@@ -25,14 +25,16 @@ bodyColor_GreetingsTitle = props['bodyColor'] ? props['bodyColor'] : bodyColor_G
   valueheight={'fit-content'}
  valuewidth={'fit-content'}
  >
-<Text id="text-1-copy" content="Hi Joe ✌️!"  backgroundColor={titleColor_GreetingsTitle} 
+<Text id="text-1-copy" content="Hi Joe ✌️!"  backgroundColor={titleColor_GreetingsTitle}
+backgroundColor={titleColor_GreetingsTitle} 
   
  fontSize={'32pt'}
  textWeight={'fontWeight=bold'}
     valueheight={'fit-content'}
  valuewidth={'fit-content'}
  />
-<Text id="text-2-copy" content="Are you looking for greatness?"  backgroundColor={bodyColor_GreetingsTitle} 
+<Text id="text-2-copy" content="Are you looking for greatness?"  backgroundColor={bodyColor_GreetingsTitle}
+backgroundColor={bodyColor_GreetingsTitle} 
   
  fontSize={'14pt'}
  
