@@ -39,14 +39,14 @@ padding-right={'6vw'}
  valuewidth={'width=100%'}
  />
 <Text id="text-1-copy" content="Discover the World with us"  backgroundColor={titleColor_Onboarding} 
-  texAlign={'textAlign=center'}
+  textAlign={'textAlign=center'}
  fontSize={'24pt'}
  textWeight={'fontWeight=bold'}
     valueheight={'fit-content'}
  valuewidth={'80%'}
  />
 <Text id="text-2-copy" content="Experience the wonders of the planet booking with our user-friendly app"  backgroundColor={bodyColor_Onboarding} 
-  texAlign={'textAlign=center'}
+  textAlign={'textAlign=center'}
  fontSize={'14pt'}
  
  margin-top={'6vw'} 
